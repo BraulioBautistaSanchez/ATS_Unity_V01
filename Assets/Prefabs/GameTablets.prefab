@@ -19,7 +19,7 @@ PrefabInstance:
     - target: {fileID: 895349211482441455, guid: 9f83619dea76ce44e85f407af036d44b, type: 3}
       propertyPath: botonDecisionPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 632614212631527404, guid: 944704193ccace141b0fd4a179f3a320, type: 3}
     - target: {fileID: 1052928768597610094, guid: 9f83619dea76ce44e85f407af036d44b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 159.36597

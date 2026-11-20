@@ -31,7 +31,7 @@ public class DatabaseReader : MonoBehaviour
     {
         using (var dbConnection = new SQLiteConnection(dbPath))
         {
-            string query = "SELECT decision_id as decisionId, option_text as optionText, target_dialogue_id as targetDialogueId, es_buena_decision as esBuenaDecision FROM Opciones WHERE decision_id = ?";
+            string query = "SELECT decision_id, option_text, target_dialogue_id, es_buena_decision FROM Opciones WHERE decision_id = ?";
             return dbConnection.Query<OptionData>(query, decisionIdBuscado);
         }
     }
